@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width: 451px){
+    .presentacion{
+        width: 100%;
+        height: 12vh;
+    }
+    .head{
+        width: 100%;
+        height: 12vh;
+        background-color: #191c32;
+        padding-left: 16%;
+        display: flex;
+        position: fixed;
+    }
+    .titulo{
+        padding-top: 0.4%;
+        font-size: 350%;
+        font-family: 'Times New Roman', Times, serif;
+        color: aliceblue;
+        padding-right: 30%;
+    }
+    .botones{
+        color: aliceblue;
+        font-size: 130%;
+        padding-top: 2%;
+        padding-left: 2%;
+        text-decoration: none;
+    }
+    .tiposDeHabitaciones{
+        width: 76%;
+        text-align: center;
+    }
+    .form{
+        background-color: #fff;
+        width: 100%;
+        max-width: 400px;
+        color: #191c32;
+        border-radius: 1em;
+        padding: 3.5em 1.5em;
+    }
+    .form__container{
+        width: 50%;
+        display: grid;
+        gap: 1em;
+        grid-auto-columns: 100%;
+        margin-left: 25%;
+    }
+    .form__title{
+        text-align: center;
+        font-size: 1.9rem;
+        margin-bottom: 1.4em;
+    }
+    .form__input{
+        font-size: 1rem;
+        padding: .8em 1em;
+        border-radius: 0.2em ;
+    }
+    .form__input--message{
+        resize: none;
+        padding: 1.8em 1em;
+        margin-bottom: .5em;
+    }
+    .form__cta{
+        background-color: #089FE0;
+        color: #fff;
+        border: none;
+        font-weight: 300;
+        font-size: 1rem;
+        padding: .7em 0;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 400;
+        margin-bottom: 5%;
+    }
+    .fechas{
+        display: flex;
+    }
+    .text{
+        width: 25%;
+        font-size: 128%;
+        padding: 8px;
+        margin-right: 15px;
+    }
+    .form__input__date{
+        width: 75%;
+        text-align: center;
+    }
+}
+
+@media (max-width:450px){
+    .form{
+        background-color: #fff;
+        width: 100%;
+        margin: auto;
+        max-width: 400px;
+        color: #191c32;
+        border-radius: 1em;
+        padding: 3em 1em;
+    }
+    .form__container{
+        width: 50%;
+        display: grid;
+        gap: 1em;
+        grid-auto-columns: 100%;
+        margin-left: 25%;
+    }
+    .form__title{
+        text-align: center;
+        font-size: 1.9rem;
+        margin-bottom: 1.4em;
+    }
+    .form__input{
+        font-size: 1rem;
+        padding: .8em 1em;
+        border-radius: 0.2em ;
+    }
+    .form__input--message{
+        resize: none;
+        padding: 1.8em 1em;
+        margin-bottom: .5em;
+    }
+    .form__cta{
+        background-color: #089FE0;
+        color: #fff;
+        border: none;
+        font-weight: 300;
+        font-size: 1rem;
+        padding: .7em 0;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 400;
+    }
+    .fechas{
+        text-align: center;
+        margin-bottom: 6px;
+        height: 140%;
+    }
+    .text{
+        width: 25%;
+        font-size: 128%;
+        padding: 8px;
+    }
+    .form__input__date{
+        width: 91%;
+        text-align: center;
+        padding: 4%;
+        font-size: 110%;
+    }
+    .tiposDeHabitaciones{
+        width: 100%;
+        text-align: center;
+        padding: 4%;
+        font-size: 104%;
+    }
+}

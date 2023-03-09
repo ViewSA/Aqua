@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="stylesReservas.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Punta del Este - Reservas</title>
+</head>
+<body>
+    <body>
+        <form
+            action="https://formspree.io/f/mknabjap"
+            method="POST"
+        >
+        <div class="presentacion">
+            <div class="head">
+                <p class="titulo">Reservar</p>
+                <a class="botones" href="index.html#nosotros">Nosotros</a>
+                <a class="botones" href="#">Reservas</a>
+                <a class="botones" href="index.html#ubicacion">Ubicación</a>
+                <a class="botones" href="index.html#contacto">Contacto</a>
+            </div>
+        </div>
+        <main class="main">           
+            <form class="form">
+                <div class="form__container">
+                    <h2 class="form__title"></h2>
+                    <input type="text" class="form__input" placeholder="Nombre y Apellido" name="Name">
+                    <input type="email" class="form__input" placeholder="Correo" name="Email">
+                    <div class="fechas">
+                        <label class="text" for="fechaDeNacimiento"><span>Fecha de Nacimiento:</span></label>
+                        <input type= "date" class="form__input__date" placeholder="device-width" name="Edad" id="fechaDeNacimiento">
+                    </div>
+                    <div class="fechas">
+                        <label class="text" for="check-in"><span>Check-in:</span></label>
+                        <input type= "date" class="form__input__date" placeholder="device-width" name="Check-in" id="check-in">
+                    </div>
+                    <div class="fechas">
+                        <label class="text" for="check-out"><span>Check-out:</span></label>
+                        <input type= "date" class="form__input__date" placeholder="device-width" name="Check-out" id="check-out">
+                    </div>
+                    <div class="fechas">
+                        <label class="text" for="lang">Tipo de Habitación:</label>
+                        <select class="tiposDeHabitaciones" name="Habitacion" id="lang">
+                            <option value="Standar">Standar para 2 personas - U$S 85.0</option>
+                            <option value="Junior Suite">Junior Suite para 2 personas - U$S 130.0</option>
+                            <option value="Suite">Suite para 2 personas - U$S 140.0</option>
+                            <option value="Suite_Superior">Suite Superior para 2 personas - U$S 150.0</option>
+                            <option value="Cuadruple">Cuadruple - U$S 136.0</option>
+                            <option value="Familiar">Familiar para 6 personas - U$S 150.0</option>
+                        </select>
+                    </div>
+                    <div class="fechas">
+                        <label class="text" for="paraTarjeta">Tipo de Tarjeta:</label>
+                        <select class="tiposDeHabitaciones" name="tarjeta" id="paraTarjeta">
+                            <option value="Visa">Visa credito</option>
+                            <option value="MasterCard">MasterCard credito</option>
+                            <option value="American">American expres credito</option>
+                        </select>
+                    </div>
+                    <input type="text" class="form__input" placeholder="Numero de tarjeta" name="NumeroDeTarjeta">
+                    <input type="text" class="form__input" placeholder="Vencimiento mm/aaaa" name="Vencimiento">
+                    <input type="text" class="form__input" placeholder="Código de seguridad" name="Codigo de seguridad">
+                    <textarea class="form__input form__input--message" placeholder="Observaciones" name="message"></textarea>
+                    <input type="submit" value="Reservar" class="form__cta" onclick="location.href = location.ancestorOrigins">
+                </div>
+            </form>
+            
+        </main>
+    
+    </body>
+</body>
+</html>
